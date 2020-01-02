@@ -237,7 +237,7 @@ class _Page3State extends State<Page3> {
                                                 .toString()
                                                 .toUpperCase(),
                                             style: TextStyle(
-                                                fontSize: 16,
+                                                fontSize: 15,
                                                 fontWeight: FontWeight.bold)),
                                         Text(data[index]['jobtime']),
                                         SizedBox(

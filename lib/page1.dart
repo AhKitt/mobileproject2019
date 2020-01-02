@@ -59,10 +59,13 @@ class _Page1State extends State<Page1> {
                         color: Colors.blueAccent,
                         child: Column(
                           children: <Widget>[
-                            Stack(children: <Widget>[
+                            Stack(
+                              
+                              children: <Widget>[
                               Image.asset(
                                 "assets/images/plumbing background2.jpg",
                                 fit: BoxFit.fitWidth,
+                                // height: 247.0,
                               ),
                               Container(
                                 height: 247,
@@ -240,7 +243,7 @@ class _Page1State extends State<Page1> {
                                                 .toString()
                                                 .toUpperCase(),
                                             style: TextStyle(
-                                                fontSize: 16,
+                                                fontSize: 15,
                                                 fontWeight: FontWeight.bold)),
                                         Text(data[index]['jobtime']),
                                         SizedBox(

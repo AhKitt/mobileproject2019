@@ -252,7 +252,7 @@ class _Page4State extends State<Page4> {
     await prefs.setString('email', '');
     await prefs.setString('pass', '');
     print("LOGOUT");
-    Navigator.pop(
+    Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => SplashScreen()));
   }
 

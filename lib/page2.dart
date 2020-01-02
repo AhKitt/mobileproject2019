@@ -70,7 +70,7 @@ class _Page2State extends State<Page2> {
                                 fit: BoxFit.fitWidth,
                               ),
                               Container(
-                                height: 247,
+                                height: 247, //247
                                 decoration: BoxDecoration(
                                   color: Colors.black.withOpacity(0.5)
                                 ),
@@ -230,7 +230,7 @@ class _Page2State extends State<Page2> {
                                                 .toString()
                                                 .toUpperCase(),
                                             style: TextStyle(
-                                                fontSize: 16,
+                                                fontSize: 15,
                                                 fontWeight: FontWeight.bold)),
                                         // SizedBox(
                                         //   height: 2,

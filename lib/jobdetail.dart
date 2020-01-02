@@ -112,7 +112,7 @@ class _DetailInterfaceState extends State<DetailInterface> {
         ),
         Text(widget.job.jobtitle.toUpperCase(),
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 18,
               fontWeight: FontWeight.bold,
             )),
         Text(widget.job.jobtime),
