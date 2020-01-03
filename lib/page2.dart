@@ -316,7 +316,7 @@ class _Page2State extends State<Page2> {
     String urlLoadJobs = "http://mobilehost2019.com/myplumber/php/load_job_user.php";
      ProgressDialog pr = new ProgressDialog(context,
         type: ProgressDialogType.Normal, isDismissible: false);
-        pr.style(message: "Loading All Accepted Jobs");
+        pr.style(message: "Loading All Posted Jobs");
     pr.show();
     http.post(urlLoadJobs, body: {
       "email": widget.plumber.email ?? "notavail",

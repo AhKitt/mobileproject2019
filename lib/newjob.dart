@@ -282,8 +282,9 @@ class _CreateNewJobState extends State<CreateNewJob> {
             name: dres[1],
             email: dres[2],
             phone: dres[3],
-            radius: dres[4],
-            credit: dres[5],);
+            credit: dres[4],
+            rating: dres[5],
+            radius: dres[6],);
         Navigator.push(ctx,
             MaterialPageRoute(builder: (context) => MainScreen(plumber: plumber)));
       }
